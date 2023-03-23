@@ -1,0 +1,50 @@
+\section{Ejercicios}
+Intente llegar a la respuesta correcta con las pistas que se encuentran en el enunciado, Puedes revisar la respuesta de los ejercicios en las paginas finales:
+\subsection{Ejercicio 1}
+1. Integra $\int x \ln x dx$.\\
+Pista: Se utiliza $u=\ln x$, $du=\frac{1}{x}dx$\\
+a) $\frac{1}{2} x^2 \ln x - \frac{1}{4} x^2$\\
+b) $\frac{1}{2} x^2 \ln x - \frac{1}{2} x^2$\\
+c) $\frac{1}{2} x^2 \ln x - x^2$\\
+d) $\frac{1}{2} x^2 \ln x - 2x^2$
+
+\subsection{Ejercicio 2}
+Integra $\int \cos^2 x dx$:\\
+Pista: Se utiliza $u=\cos x$, $du=-\sin x dx$\\
+a) $\frac{1}{2} x + \frac{1}{4} \sin 2x$\\
+b) $\frac{1}{2} x + \frac{1}{2} \sin 2x$\\
+c) $\frac{1}{2} x - \frac{1}{4} \sin 2x$\\
+d) $\frac{1}{2} x - \frac{1}{2} \sin 2x$
+\subsection{Ejercicio 3}
+Integra $\int e^x \sin x dx$.\\
+Pista: Se utiliza $u=\sin x$, $du=\cos x dx$\\
+a) $\frac{1}{2} e^x (\sin x - \cos x) + C$\\
+b) $\frac{1}{2} e^x (\sin x + \cos x) + C$\\
+c) $-\frac{1}{2} e^x (\sin x - \cos x) + C$\\
+d) $-\frac{1}{2} e^x (\sin x + \cos x) + C$
+
+\newpage
+\section{Solución}
+\subsection{Ejercicio 1}
+Respuesta correcta: b) $\frac{1}{2} x^2 \ln x - \frac{1}{2} x^2$
+
+Realimentación:
+
+Se utiliza $u=\ln x$, $du=\frac{1}{x}dx$, $dv=x dx$, $v=\frac{1}{2} x^2$.
+
+$$\int x \ln x dx = \frac{1}{2} x^2 \ln x - \int \frac{1}{2} x dx = \frac{1}{2} x^2 \ln x - \frac{1}{4} x^2 + C$$
+
+\subsection{Ejercicio 2}
+Respuesta correcta: a) $\frac{1}{2} x + \frac{1}{4} \sin 2x$
+
+Explicación:
+Se utiliza $u=\cos x$, $du=-\sin x dx$, $dv=\cos x dx$, $v=\sin x$.
+
+$$\int \cos^2 x dx = \sin x \cos x - \int \sin^2 x dx = \frac{1}{2} \sin 2x + \frac{1}{2} x + C$$
+\subsection{Ejercicio 3}
+Respuesta correcta: c) $-\frac{1}{2} e^x (\sin x - \cos x) + C$
+
+Explicación:
+Se utiliza $u=\sin x$, $du=\cos x dx$, $dv=e^x dx$, $v=e^x$.
+
+$$\int e^x \sin x dx = e^x \sin x - \int e^x \cos x dx = e^x \sin x - \frac{1}{2} e^x \cos x - C = -\frac{1}{2} e^x (\sin x - \cos x) + C$$
