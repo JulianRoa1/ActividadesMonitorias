@@ -12,41 +12,42 @@ d) $\frac{1}{2} x^2 \ln x - 2x^2$
 ### Ejercicio 2
 Integra $\int \cos^2 x dx$:\
 Pista: Se utiliza $u=\cos x$, $du=-\sin x dx$\
-a) $\frac{1}{2} x + \frac{1}{4} \sin 2x$\\
-b) $\frac{1}{2} x + \frac{1}{2} \sin 2x$\\
-c) $\frac{1}{2} x - \frac{1}{4} \sin 2x$\\
+a) $\frac{1}{2} x + \frac{1}{4} \sin 2x$\
+b) $\frac{1}{2} x + \frac{1}{2} \sin 2x$\
+c) $\frac{1}{2} x - \frac{1}{4} \sin 2x$\
 d) $\frac{1}{2} x - \frac{1}{2} \sin 2x$
 
 ### Ejercicio 3
 Integra $\int e^x \sin x dx$.\
 Pista: Se utiliza $u = x$ y $dv = \cos(x)dx$\
-a) $\frac{1}{2} e^x (\sin x - \cos x) + C$
-b) $\frac{1}{2} e^x (\sin x + \cos x) + C$
-c) $-\frac{1}{2} e^x (\sin x - \cos x) + C$
+a) $\frac{1}{2} e^x (\sin x - \cos x) + C$\
+b) $\frac{1}{2} e^x (\sin x + \cos x) + C$\
+c) $-\frac{1}{2} e^x (\sin x - \cos x) + C$\
 d) $-\frac{1}{2} e^x (\sin x + \cos x) + C$
 
 
 ### Ejercicio 4
-Integre $\int x \cos(x) dx$
-Pista: $u=x$ y $dv=\cos(x)dx$
-a) $x\sin(x) + \cos(x) + C$
-b) $\frac{1}{2}x\sin(x) - \frac{1}{2}\cos(x) + C$
-c) $\frac{1}{2}x\sin(x) + \frac{1}{2}\cos(x) + C$
+Integre $\int x \cos(x) dx$\
+Pista: $u=x$ y $dv=\cos(x)dx$\
+a) $x\sin(x) + \cos(x) + C$\
+b) $\frac{1}{2}x\sin(x) - \frac{1}{2}\cos(x) + C$\
+c) $\frac{1}{2}x\sin(x) + \frac{1}{2}\cos(x) + C$\
 d) $x\sin(x) - \cos(x) + C$
 
 ### Ejercicio 5
-Evalúe $\int \ln(x)dx$ 
-Pista: 
-a) $x\ln(x) - x + C$
-b) $x\ln(x) + x + C$
-c) $x\ln(x) - \frac{1}{2}x^2 + C$
+Evalúe $\int \ln(x)dx$ \
+Pista:  $u=\ln(x)$ y $dv=dx$\
+a) $x\ln(x) - x + C$\
+b) $x\ln(x) + x + C$\
+c) $x\ln(x) - \frac{1}{2}x^2 + C$\
 d) $\frac{1}{2}x^2 \ln(x) - \frac{1}{4}x^2 + C$
 
 ### Ejercicio 6
-Evalúe $\int x^2 e^x dx$ 
-a) $x^2 e^x - 2xe^x + 2e^x + C$
-b) $x^2 e^x - xe^x + e^x + C$
-c) $x^2 e^x + xe^x - e^x + C$
+Evalúe $\int x^2 e^x dx$ \
+Pista: $u=x^2$ y $dv=e^x dx$\
+a) $x^2 e^x - 2xe^x + 2e^x + C$\
+b) $x^2 e^x - xe^x + e^x + C$\
+c) $x^2 e^x + xe^x - e^x + C$\
 d) $x^2 e^x + 2xe^x - 2e^x + C$
 
 ## Solución
